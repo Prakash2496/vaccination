@@ -1,0 +1,18 @@
+[
+  {
+    "id": "covid_moderna",
+    "name": "moderna",
+    "requiredDoses": 1,
+    "groupName": "covid"
+  },{
+    "id": "covid_pfizer",
+    "name": "pfizer",
+    "requiredDoses": 2,
+    "groupName": "covid"
+  },{
+    "id": "flu_fever",
+    "name": "fever",
+    "requiredDoses": 1,
+    "groupName": "flu"
+  }
+]

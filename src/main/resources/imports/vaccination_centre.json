@@ -1,0 +1,20 @@
+[
+  {
+    "id": "vc1",
+    "zipcode": "2345",
+    "name": "Ebene Treatment Centre",
+    "location": "Ebene"
+  },
+  {
+    "id": "vc2",
+    "zipcode": "2346",
+    "name": "Phoenix Treatment Centre",
+    "location": "Phoenix"
+  },
+  {
+    "id": "vc3",
+    "zipcode": "0001",
+    "name": "Port Louis Hospital",
+    "location": "Port Louis"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "vaccineId": "covid_moderna",
+    "vaccineGroup": "covid",
+    "vaccinationCentreId": "vc1",
+    "dose": 1,
+    "status": true
+  },
+  {
+    "vaccineId": "covid_pfizer",
+    "vaccineGroup": "covid",
+    "vaccinationCentreId": "vc1",
+    "dose": 1,
+    "status": true
+  },
+  {
+    "vaccineId": "covid_pfizer",
+    "vaccineGroup": "covid",
+    "vaccinationCentreId": "vc1",
+    "dose": 2,
+    "status": true
+  },
+  {
+    "vaccineId": "covid_pfizer",
+    "vaccineGroup": "covid",
+    "vaccinationCentreId": "vc2",
+    "dose": 2,
+    "status": false
+  },
+  {
+    "vaccineId": "covid_pfizer",
+    "vaccineGroup": "covid",
+    "vaccinationCentreId": "vc2",
+    "dose": 1,
+    "status": true
+  },
+  {
+    "vaccineId": "flu_fever",
+    "vaccineGroup": "flu",
+    "vaccinationCentreId": "vc3",
+    "dose": 1,
+    "status": true
+  },
+  {
+    "vaccineId": "covid_pfizer",
+    "vaccineGroup": "covid",
+    "vaccinationCentreId": "vc3",
+    "dose": 1,
+    "status": true
+  },
+  {
+    "vaccineId": "covid_pfizer",
+    "vaccineGroup": "covid",
+    "vaccinationCentreId": "vc3",
+    "dose": 2,
+    "status": true
+  },
+  {
+    "vaccineId": "covid_moderna",
+    "vaccineGroup": "covid",
+    "vaccinationCentreId": "vc3",
+    "dose": 1,
+    "status": true
+  }
+]

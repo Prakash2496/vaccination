@@ -1,0 +1,26 @@
+[
+  {
+    "aadharId": "g123l",
+    "vaccineId": "flu_fever",
+    "vaccineGroup": "flu",
+    "vaccinationCentreId": "vc1",
+    "dose": 1,
+    "fullyVaccinated": true
+  },
+  {
+    "aadharId": "r123o",
+    "vaccineId": "covid_moderna",
+    "vaccineGroup": "covid",
+    "vaccinationCentreId": "vc2",
+    "dose": 1,
+    "fullyVaccinated": true
+  },
+  {
+    "aadharId": "k123l",
+    "vaccineId": "covid_pfizer",
+    "vaccineGroup": "covid",
+    "vaccinationCentreId": "vc3",
+    "dose": 1,
+    "fullyVaccinated": false
+  }
+]

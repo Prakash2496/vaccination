@@ -1,0 +1,30 @@
+[
+  {
+    "id": "g123l",
+    "name": "Glen",
+    "address": "Royal Road, Ebene",
+    "zipcode": "2345"
+  },{
+    "id": "c123l",
+    "name": "Claire",
+    "address": "Branch Road, Sodnac",
+    "zipcode": "1234"
+  },{
+    "id": "r123o",
+    "name": "Roy",
+    "address": "New Road, Sodnac",
+    "zipcode": "1234"
+  },
+  {
+    "id": "k123l",
+    "name": "Kyle",
+    "address": "New Road, Sodnac",
+    "zipcode": "1234"
+  },
+  {
+    "id": "c1230",
+    "name": "Conrad",
+    "address": "Port Louis",
+    "zipcode": "0001"
+  }
+]
