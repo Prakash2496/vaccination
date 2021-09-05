@@ -3,7 +3,9 @@ package com.hangarww.vaccination.controller;
 import com.hangarww.vaccination.dto.VaccinationResponseDto;
 import com.hangarww.vaccination.service.group.CovidVacinationService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,8 +19,11 @@ public class CovidVaccinationController {
     private CovidVacinationService covidVacinationService;
 
     @GetMapping("/firstDose/{aadharId}")
-    public VaccinationResponseDto getNearestVaccinationCentreFirstDose(@PathVariable String aadharId){
-        return covidVacinationService.getNearestVaccinationCentreForFirstDose(aadharId);
+    public ResponseEntity<VaccinationResponseDto> getNearestVaccinationCentreFirstDose(@PathVariable String aadharId){
+    	
+    	VaccinationResponseDto vaccinationResponseDto = covidVacinationService.getNearestVaccinationCentreForFirstDose(aadharId);
+        
+    	return new ResponseEntity<>(vaccinationResponseDto, HttpStatus.OK);
     }
 
 }
