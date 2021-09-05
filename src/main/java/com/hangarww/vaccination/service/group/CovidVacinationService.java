@@ -43,6 +43,7 @@ public class CovidVacinationService {
                         .person(aadharCard.getName())
                         .vaccine(vaccine.getName())
                         .dose(1)
+                        .message("First dose covid vaccine request approved")
                         .vaccinationCentre(vaccinationCentre.getName())
                         .vaccinationLocation(vaccinationCentre.getLocation())
                         .statusOK(true)
